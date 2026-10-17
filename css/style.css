@@ -78,7 +78,7 @@ h1{
 .container{
     width: 100%;
     max-width: 1440px;
-    margin: 0px;
+    margin: 0px auto;
     padding:20px;
     flex:1;
 }
@@ -135,13 +135,15 @@ h2{
 .tittle{
     font-family: 'Jersey 25', sans-serif;
     font-size: 36px;
+    font-weight: bold;
     color:#ff528c;
     line-height: 1.1;
 }
 
 #description {
-    font-family: 'Gurajada', serif;
+    font-family: 'Jersey 25', sans-serif;
     font-size: 26px;
+    font-weight: bold;
     color: black;
     line-height: 1.2;
 }
@@ -184,7 +186,7 @@ h3 {
 
 
 .sidebar-text {
-    font-family: 'Caveat', cursive;
+    font-family: 'Crimson Text', serif;
     font-size: 24px;
     font-weight: bold;
     color: black;
@@ -241,9 +243,9 @@ h4{
 }
 
 .card-description{
-    font-family:'Jersey 25', sans-serif;
+    font-family:'Crimson Text', serif;
     font-size: 20px;
-    font-weight: normal;
+    font-weight: bold;
     line-height: 1.25;
     color: black;
 }
