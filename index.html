@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="site-header">
+    <header class="site-header" id="home">
         <img class="logo" src="images/logo.jpeg" alt="logo">
         <h1>Biki's Creative Hub</h1>
         <p class="header">by ZIQI LI</p>
@@ -36,43 +36,50 @@
         <section class="sidebar">
             <h2> Quick Facts</h2>
             <h3>Address</h3>
-            <p class="sidebar"> University of Toronto Mississauga</p>
+            <p class="sidebar-text"> University of Toronto Mississauga</p>
             <h3>Next session</h3>
-            <p class="sidebar">Cooking course- Chinese Noodles</p>
+            <p class="sidebar-text">Cooking course- Chinese Noodles</p>
             <h3>Motto</h3>
-            <p class="sidebar">Viva la vida Happy every day!</p>
+            <p class="sidebar-text">Viva la vida Happy every day!</p>
         </section>
      </section>
 
-          <section class="card-gallery">
+          <section class="card-gallery" id="workshops">
            <h4> Workshops</h4>
-           <div class="card-grid">
-           <article class="card">
+           <div class="cards-grid">
+            <article class="card">
             <img class="workshops" src="images/workshop1.jpeg" alt="Cooking workshop">
+            <div class="card-content">
             <p class="card-tittle">01 Cooking workshops</p>
             <p class="card-description">Learn to make a delicious noodle dish in this beginner-friendly workshop. Practise preparing ingredients, mixing sauces, and creating a meal to enjoy together.</p>
-            <a href="workshop"> View Details</a>
+            <a href="#contact"> View Details</a>
+            </div>
            </article>
 
             <article class="card">
             <img class="workshops" src="images/workshop2.jpeg" alt="Flower Workshop">
+            <div class="card-content">
             <p class="card-tittle">02 Flower Workshop</p>
             <p class="card-description">Create your own beautiful floral arrangement while learning flower selection, color matching, and basic floral design. Perfect for beginners!</p>
             <a href="workshop"> View Details</a>
-           </article>
+           </div>
+        </article>
 
             <article class="card">
             <img class="workshops" src="images/workshop3.jpeg" alt="Printmaking Workshop">
+            <div class="card-content">
             <p class="card-tittle">03 Printmaking Workshop</p>
             <p class="card-description">Explore the art of printmaking in a hands-on workshop. Learn to sketch, carve, and print your own design, then take home your finished artwork.</p>
             <a href="workshop"> View Details</a>
-           </article>
+           </div>
+        </article>
+           
            </div>
         </section>
 
 </main>
 
-<footer class="site-footer">
+<footer class="site-footer" id="contact">
     <p>&copy; 2026 ZIQI LIN. All rights reserved.</p>
     <a href="footer">Email</a>
     <p class="footer">ziqiii.lin@mail.utoronto.ca</p>

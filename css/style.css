@@ -48,6 +48,7 @@ h1{
 .header{
     font-family: 'Jersey 25', sans-serif;
     font-size: 18px;
+    font-weight: bold;
     color:#D4588B
 }
 
@@ -161,29 +162,34 @@ h2{
     margin-top: auto;
 }
 
-.sidebar{
+
+.sidebar {
     background-color: white;
     border: 3px solid #5C3333;
     border-radius: 20px;
-    padding:20px;
-    display:flex;
-    flex-direction:column;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
     gap: 16px;
+    min-width: 0;
 }
 
-h3{
+h3 {
     font-family: 'Jersey 25', sans-serif;
     font-size: 20px;
-    color:#ff528c;
+    font-weight: bold;
+    color: #ff528c;
+    text-transform: uppercase;
 }
 
-.sidebar-text{
-    font-family:'Caveat', cursive;
+
+.sidebar-text {
+    font-family: 'Caveat', cursive;
     font-size: 24px;
     font-weight: bold;
-    color:black;
-    border-bottom:2px solid #5C3333;
-    scroll-padding-bottom: 16px;
+    color: black;
+    border-bottom: 2px solid #FFDE06;
+    padding-bottom: 16px;
 }
 
 .card-gallery{
@@ -197,7 +203,7 @@ h4{
     margin-bottom: 16px;
 }
 
-.card-grid {
+.cards-grid {
     display: grid;
     grid-template-columns: 1fr;
     gap: 24px;
@@ -210,11 +216,12 @@ h4{
     overflow: hidden;
     display:flex;
     flex-direction:column;
+    min-width: 0;
 }
 
 .workshops{
     width: 100%;
-    height: 200px;
+    height: 190px;
     object-fit:cover;
 }
 
@@ -223,6 +230,7 @@ h4{
     display:flex;
     flex-direction:column;
     gap: 16px;
+    flex: 1;
 }
 
 .card-tittle {
@@ -230,6 +238,14 @@ h4{
     font-size: 24px;
     color: #FFDE06;
     font-weight: normal;
+}
+
+.card-description{
+    font-family:'Jersey 25', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.25;
+    color: black;
 }
 
 .card a {
@@ -240,7 +256,7 @@ h4{
     padding: 5px 12px;
     font-family: 'Jersey 25', sans-serif;
     font-size: 20px;
-    text-align: center;
+    text-decoration: none;
     align-self: flex-end;
     margin-top: auto;
 }
@@ -361,18 +377,14 @@ h4{
     }
 
    .sidebar {
-    background-color: white;
-    border: 3px solid #5C3333;
-    border-radius: 20px;
+    min-height: 459px;
     padding: 24px;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
 }
 
     .cards-grid {
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
         gap: 24px;
+        align-items: stretch;
     }
 
 
